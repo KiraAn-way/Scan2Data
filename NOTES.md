@@ -2,39 +2,65 @@
 
 ## Concept
 
-Scan2Data is for warehouse scan work. Nothing fancy on purpose.
+Scan2Data is for practical warehouse scan work. The goal is not to be a large warehouse system; it is a focused tool for the scan -> check -> print/save flow.
 
-In many warehouse tasks you scan a code, check what it is, then need to do something with it. This app is meant to keep that flow quicker and less messy.
+## Operator Flow
 
-## Problem
+The current app starts with a simple branding screen. After the operator taps `START`, the main screen shows:
 
-Barcode work can get stupid fast:
+- active work mode
+- selected input source
+- printer status
+- loaded-list status
+- remaining demo scans or license state
+- current loaded-list rows
+- current candidate
+- last accepted scan
+- manual scan actions
 
-- same code typed again
-- last scan lost from screen
-- wrong value copied
-- too much jumping between tools
+The loaded-list table is the main working area. It is used consistently for packing lists, inventory mode, verify mode, manual adding, and scan display.
 
-Small problems, but they slow people down.
+## Modes
 
-## Direction
+Current modes include:
 
-Basic flow:
+- scan/print workflow
+- packing list workflow
+- inventory mode
+- verify mode
 
-- scan item
-- show what was scanned
-- keep recent scans visible
-- make next action easier
-- add more warehouse helpers later
+Verify and inventory lists can be imported from supported list files. Packing lists can be imported from supported packing list files. Dictionary files can be imported separately for text lookup.
 
-## Non-Public Details
+## Input Sources
 
-Not public here:
+Supported input sources:
 
-- Application source code
-- Internal implementation details
-- Private network paths
-- Credentials
-- Customer data
-- Production configuration
-- Device-specific setup details
+- hardware scanner/Data Intent
+- Android camera scanner
+- manual input
+
+## Output
+
+Supported output paths:
+
+- no-printer scan/list checking
+- WiFi printer
+- Bluetooth printer
+- local file/list state
+- CSV exports where enabled
+
+## Public Documentation Boundary
+
+Do not add private implementation details here.
+
+Keep out:
+
+- source code
+- signing data
+- private SMB paths
+- credentials
+- customer files
+- production configuration
+- real warehouse data
+
+Use generated or bundled demo files only when documentation needs examples.

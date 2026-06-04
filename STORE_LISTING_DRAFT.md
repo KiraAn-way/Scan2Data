@@ -6,31 +6,40 @@ Scan2Data
 
 ## Short Description
 
-Process scanned data for warehouse inventory work.
+Scan, verify, and print warehouse item data.
 
 ## Full Description
 
-Scan2Data is a warehouse focused app for scanned item data.
+Scan2Data is a warehouse-focused Android app for scan-heavy work.
 
-It is made for scan-heavy work where people need to capture item codes, see recent scans, and avoid typing the same data again and again.
+It helps operators scan item codes, view loaded list rows, verify inventory or packing data, and send the right line to a printer when needed. The app is designed around a compact operator screen that keeps current status, loaded rows, last scan, and next actions visible.
 
-The first goal is not to be huge system. Just make the daily scan -> check -> use flow easier.
+Current workflows include regular scan handling, packing list line printing, inventory mode, verify mode, manual input, camera scan fallback, dictionary lookup, and WiFi/Bluetooth printer setup.
 
-## Planned Features
+## Current Features
 
-- Scan data processing
-- Recent scan list
+- Hardware scanner/Data Intent support
+- Android camera scanning
 - Manual input fallback
-- Input source selection
-- Inventory friendly screens
-- Future label / export work
+- Main loaded-list table with scrolling
+- Packing list import and line print
+- Inventory mode
+- Verify mode
+- Dictionary import and lookup
+- Example files for test imports
+- WiFi printer setup
+- Bluetooth printer setup
+- ZPL label printing
+- Basic usage analytics
+- Demo/license scan allowance
+- Phone and tablet-aware layouts
 
 ## Target Audience
 
-- Logistics teams
 - Warehouse operators
+- Logistics teams
 - Inventory teams
-- Shipping / production support
+- Shipping and production support
 
 ## Support Contact
 
