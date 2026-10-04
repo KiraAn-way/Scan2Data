@@ -2,13 +2,14 @@
 
 ## Current Test Build
 
-The app is in active local testing as `0.9.1-stable-test`.
+The app is in active local testing as `0.9.2.9 Dev\Test` (`versionCode 11`).
 
 Completed or currently implemented:
 
 - Scan2Data branding and start screen.
 - Main operator screen for scan-heavy work.
 - Android camera scan input.
+- Camera-assisted OCR input.
 - Hardware scanner/Data Intent input.
 - Manual input fallback.
 - WiFi and Bluetooth printer setup.
@@ -22,6 +23,13 @@ Completed or currently implemented:
 - Bundled example file selector.
 - License/demo scan allowance.
 - Basic usage analytics.
+- CSV, XLSX, and TXT export support where enabled.
+- Persisted inventory/verify sessions and session summaries.
+- Local diagnostics with export support and protected scan identifiers.
+- Configurable company profiles for focused operator interfaces.
+- English, German, and Ukrainian localization.
+- Automated unit-test, lint, and debug-build CI coverage.
+- Per-ABI release builds to reduce installation size.
 
 ## Before 0.95
 
@@ -30,6 +38,8 @@ Completed or currently implemented:
 - Review row swipe actions on physical devices.
 - Tune phone/tablet layout sizes after real-device tests.
 - Check localization for every new visible label.
+- Complete user-facing integration and device validation for completed-session reports.
+- Validate CSV, XLSX, TXT, diagnostics, and report exports on supported Android devices.
 - Clean unused UI helper classes and stale resources after one more build/lint pass.
 - Prepare a clean APK build from the private app repo.
 
@@ -41,4 +51,6 @@ Completed or currently implemented:
 - Prepare screenshots using demo data only.
 - Prepare release notes.
 - Finalize support contact and store listing text.
+- Move release licensing to production-grade verification.
+- Protect stored SMB credentials before external distribution.
 - Decide whether SMB/network-folder features are public release features or internal/customer-specific features.

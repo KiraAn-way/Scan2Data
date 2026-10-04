@@ -14,12 +14,14 @@ Scan2Data is a warehouse-focused Android app for scan-heavy work.
 
 It helps operators scan item codes, view loaded list rows, verify inventory or packing data, and send the right line to a printer when needed. The app is designed around a compact operator screen that keeps current status, loaded rows, last scan, and next actions visible.
 
-Current workflows include regular scan handling, packing list line printing, inventory mode, verify mode, manual input, camera scan fallback, dictionary lookup, and WiFi/Bluetooth printer setup.
+Current workflows include regular scan handling, packing list line printing,
+inventory mode, verify mode, manual input, camera barcode/OCR input, dictionary
+lookup, file export, and WiFi/Bluetooth printer setup.
 
 ## Current Features
 
 - Hardware scanner/Data Intent support
-- Android camera scanning
+- Android camera barcode scanning and OCR
 - Manual input fallback
 - Main loaded-list table with scrolling
 - Packing list import and line print
@@ -30,6 +32,10 @@ Current workflows include regular scan handling, packing list line printing, inv
 - WiFi printer setup
 - Bluetooth printer setup
 - ZPL label printing
+- CSV, XLSX, and TXT export where enabled
+- Inventory/verify session summaries and diagnostic export
+- English, German, and Ukrainian interface localization
+- Configurable company operator profiles
 - Basic usage analytics
 - Demo/license scan allowance
 - Phone and tablet-aware layouts

@@ -36,7 +36,7 @@ Verify and inventory lists can be imported from supported list files. Packing li
 Supported input sources:
 
 - hardware scanner/Data Intent
-- Android camera scanner
+- Android camera barcode scanner and camera-assisted OCR
 - manual input
 
 ## Output
@@ -47,7 +47,17 @@ Supported output paths:
 - WiFi printer
 - Bluetooth printer
 - local file/list state
-- CSV exports where enabled
+- CSV, XLSX, and TXT exports where enabled
+
+## Current Development Line
+
+The current private Android development/test build is `0.9.2.9 Dev\Test`
+(`versionCode 11`). The public repository documents product behavior only and
+does not publish the application source code.
+
+Current development work also includes persisted inventory/verify sessions,
+session summaries, local diagnostic export, company-specific operator profiles,
+and English, German, and Ukrainian localization.
 
 ## Public Documentation Boundary
 

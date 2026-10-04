@@ -19,7 +19,9 @@ Data may be entered by:
 - bundled example files
 - configured SMB/network folders
 
-The app may store local working files for scan history, imported lists, dictionary data, printer configuration, license/demo state, and usage analytics.
+The app may store local working files for scan history, imported lists,
+dictionary data, inventory/verify sessions, diagnostic records, printer
+configuration, license/demo state, and usage analytics.
 
 This public notes repo does not include user data, customer data, credentials, private paths, or internal settings.
 
@@ -47,7 +49,11 @@ Public documentation must not include private infrastructure details, credential
 
 ## Analytics
 
-The app includes basic usage analytics for operational counts and exportable summaries where enabled. Analytics behavior should be reviewed before public release and described in final store privacy text.
+The app includes basic usage analytics for operational counts and exportable
+summaries where enabled. Diagnostic export is designed to use protected scan
+identifiers instead of raw scan values. Analytics, diagnostics, retention, and
+deletion behavior must be reviewed before public release and described in the
+final store privacy text.
 
 ## Contact
 

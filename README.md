@@ -6,7 +6,7 @@ This repository contains public product documentation only. The private Android 
 
 ## Current App State
 
-Current test version: `0.9.1-stable-test`.
+Current development/test version: `0.9.2.9 Dev\Test` (`versionCode 11`).
 
 The app currently includes:
 
@@ -17,7 +17,7 @@ The app currently includes:
 - Tablet-aware UI with a wider layout and more visible table rows.
 - Last accepted scan display below the main table for easier observation.
 - Swipe actions on loaded-list rows: left-to-right for print and right-to-left for remove with trash confirmation.
-- Android camera scanning and hardware scanner/Data Intent support.
+- Android camera barcode scanning, camera-assisted OCR, and hardware scanner/Data Intent support.
 - Manual code entry fallback.
 - WiFi and Bluetooth printer configuration.
 - Print queue and ZPL label rendering.
@@ -26,6 +26,10 @@ The app currently includes:
 - Verify list mode.
 - Dictionary import and lookup.
 - File import from device/OneDrive, bundled examples, and optional SMB network folders.
+- CSV, XLSX, and TXT export where enabled for the active workflow.
+- Persisted inventory/verify sessions, session summaries, and local diagnostic export.
+- English, German, and Ukrainian interface localization.
+- Configurable company profiles that simplify the visible operator workflow.
 - Basic usage analytics, license/demo state, and feature gating.
 
 ## Bundled Example Files
@@ -48,6 +52,7 @@ Scan2Data currently focuses on:
 - Inventory list checking.
 - Verify list checking.
 - Manual adding when scanner input is not available.
+- Session and diagnostic review for supported inventory/verify workflows.
 
 The same main table is used to keep the operator view consistent across these workflows.
 
